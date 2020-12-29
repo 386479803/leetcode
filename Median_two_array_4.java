@@ -18,6 +18,8 @@
  *
  * 输入：nums1 = [2], nums2 = []
  * 输出：2.00000
+ *
+ * 想法是：先把两个有序的数组合并成一个，然后从这一个有序数组中去算中位数，因为以前做过两个有序数组的合并
  */
 public class Median_two_array_4 {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
