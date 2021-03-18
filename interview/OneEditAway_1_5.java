@@ -22,7 +22,7 @@ public class OneEditAway {
                     count++;
                 }
             }
-            return count <= 1;
+            return count <= 1;  
         }
         int count = 0;
         int i = 0,j = 0;
