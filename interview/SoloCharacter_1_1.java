@@ -3,7 +3,7 @@ package interview;
 import java.util.HashSet;
 import java.util.Set;
 
-public class SoloCharacter {
+public class SoloCharacter_1_1 {
     public boolean isUnique(String astr) {
         if (astr == null){
             return false;
@@ -21,7 +21,7 @@ public class SoloCharacter {
     }
 
     public static void main(String[] args) {
-        SoloCharacter solo = new SoloCharacter();
+        SoloCharacter_1_1 solo = new SoloCharacter_1_1();
         System.out.println(solo.isUnique(""));
     }
 }

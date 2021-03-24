@@ -1,6 +1,6 @@
 package interview;
 
-public class OneEditAway {
+public class OneEditAway_1_5 {
     public boolean oneEdit(String first,String second){
         if (first == null || second == null){
             return false;
@@ -43,7 +43,7 @@ public class OneEditAway {
     }
 
     public static void main(String[] args) {
-        OneEditAway oneEditAway = new OneEditAway();
+        OneEditAway_1_5 oneEditAway = new OneEditAway_1_5();
         System.out.println(oneEditAway.oneEdit("teacher","teacherly"));
     }
 }
