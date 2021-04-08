@@ -8,7 +8,7 @@ import java.util.Set;
 public class CanPermutePalindrome_1_4 {
     /**
      * map 比较笨
-     * @param s
+     * @param
      * @return
      */
     public boolean canPermute(String s){
